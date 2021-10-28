@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+        
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a id="nonResponsiveLogo" href="index.html">
+            <img height="100" src="images/logo.png" alt="">
+        </a>
+        <div class="topnav_container">
+            <a id="responsiveLogo" href="index.html">
+                <img style="display: none;" height="100" src="images/logo.png" alt="">
+            </a>
+            <a href="vlogs.html">Vlogs</a>
+            <a href="about-us.html">About</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="did-you-know.html">Did you know</a>
+        </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="main">
+        <div class="background"></div>
+        <section>
+            <h1>We musk vlog</h1>
+            <div>
+                <h2>Initial vlog</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9bKLpMZXIj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <h3>Follow us now on</h3>
+        <div class="footer_socials">
+            <a href="#twitter">
+                <div>
+                    <img src="images/twitter_logo.png" alt="">
+                </div>
+                <div>@SaltGrainStudio</div>
+            </a>
+            <a href="#facebook">
+                <div>
+                    <img src="images/facebook_logo.png" alt="">
+                </div>
+                <div>@Saltgrainstudio</div>
+            </a>
+            <a href="#gamejolt">
+                <div>
+                    <img src="images/gamejolt_logo.png" alt="">
+                </div>
+                <div>@Saltgrainstudio</div>
+            </a>
+            <a href="#instagram">
+                <div>
+                    <img src="images/instagram_logo.png" alt="">
+                </div>
+                <div>@Saltgrainstudio</div>
+            </a>
+        </div>
+    </footer>
+
+    <div class="footer_sub">
+        <div class="footer_sub-title">Copyright Salt Grain Studio™ 2021</div>
+        <a href="#myTopnav">
+            <div class="footer_btn">
+            Back to top
+            </div>
+        </a>
+    </div>
+
+    <div style="padding:10px; background-color: #BD633E;"></div>
+</body>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            showResponsiveLogo()
+            x.className += " responsive";
+        } else {
+            hideReponsiveLogo()
+            x.className = "topnav";
+        }
+    }
+
+    function showResponsiveLogo() {
+        document.getElementById('nonResponsiveLogo').display = false;
+        document.getElementById('responsiveLogo').display    = true;
+    }
+
+    function hideReponsiveLogo() {
+        document.getElementById('nonResponsiveLogo').display = true;
+        document.getElementById('responsiveLogo').display    = false;
+    }
+</script>
+
+</html>

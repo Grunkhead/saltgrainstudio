@@ -1,0 +1,43 @@
+.background {
+    height: 1000px;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2, h3, h4 {
+        font-size: 20px;
+    }
+}
+
+section {
+    width: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+section > img, section > iframe {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
