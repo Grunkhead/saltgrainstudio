@@ -96,3 +96,9 @@
   .footer_sub-title {
     font-size: 16px;
   }
+
+  .logo {
+    position: fixed; 
+    top: 20px; 
+    left: 40px;
+  }
