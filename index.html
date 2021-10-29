@@ -14,19 +14,18 @@
 
 <body>
 
+    <a style='position: fixed; top: 20px; left: 40px;' href="index.html">
+        <img height="100" src="images/logo.png" alt="">
+    </a>
+
     <div class="topnav" id="myTopnav">
-        <a id="nonResponsiveLogo" href="index.html">
-            <img height="100" src="images/logo.png" alt="">
-        </a>
         <div class="topnav_container">
             <a href="vlogs.html">Vlogs</a>
             <a href="about-us.html">About</a>
             <a href="roadmap.html">Roadmap</a>
             <a href="did-you-know.html">Did you know</a>
         </div>
-        <a id="responsiveLogo" href="index.html">
-            <img style="display: none;" height="100" src="images/logo.png" alt="">
-        </a>
+
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -91,22 +90,10 @@
     function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
-            showResponsiveLogo()
             x.className += " responsive";
         } else {
-            hideReponsiveLogo()
             x.className = "topnav";
         }
-    }
-
-    function showResponsiveLogo() {
-        document.getElementById('nonResponsiveLogo').display = false;
-        document.getElementById('responsiveLogo').display    = true;
-    }
-
-    function hideReponsiveLogo() {
-        document.getElementById('nonResponsiveLogo').display = true;
-        document.getElementById('responsiveLogo').display    = false;
     }
 </script>
 
