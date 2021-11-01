@@ -34,7 +34,7 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
+    
     <div class="main">
         <div class="background"></div>
         <section>
@@ -92,22 +92,10 @@
     function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
-            showResponsiveLogo()
             x.className += " responsive";
         } else {
-            hideReponsiveLogo()
             x.className = "topnav";
         }
-    }
-
-    function showResponsiveLogo() {
-        document.getElementById('nonResponsiveLogo').display = false;
-        document.getElementById('responsiveLogo').display    = true;
-    }
-
-    function hideReponsiveLogo() {
-        document.getElementById('nonResponsiveLogo').display = true;
-        document.getElementById('responsiveLogo').display    = false;
     }
 </script>
 
