@@ -29,8 +29,9 @@ h2, h3, h4 {
         width: 300px !important;
     }
 
-    article img {
+    article img, article iframe {
         width: 300px !important;
+        height: 200px !important;
     }
 }
 
@@ -38,8 +39,9 @@ article {
     width: 600px;
 }
 
-article img {
+article img, article iframe {
     width: 600px;
+    height: 400px;
 }
 
 .main {
