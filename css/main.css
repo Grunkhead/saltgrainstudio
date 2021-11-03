@@ -22,22 +22,32 @@ h2, h3, h4 {
     h2, h3, h4 {
         font-size: 20px;
     }
+
+    article img, article iframe {
+        height: 200px !important;
+    }
 }
 
-section {
+article {
     width: 600px;
-    margin-top: 60px;
-    margin-bottom: 60px;
     padding: 10px;
 }
 
-section img, section iframe {
+article img, article iframe {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 400px;
+}
+
+article {
+    width: 600px;
 }
 
 .main {
+    padding-top: 20px;
+    padding-bottom: 100px;
     display: flex;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
