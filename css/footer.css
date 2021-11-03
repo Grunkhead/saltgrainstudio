@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .footer_socials {
         display: block;
     }
