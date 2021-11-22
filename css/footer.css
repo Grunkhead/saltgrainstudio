@@ -63,3 +63,22 @@
     bottom: 0px;
     right: 0px;
 }
+
+.footer_title {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer > div {
+    margin-bottom: 30px;
+}
+
+.footer_colored-link {
+    color: #E28654;
+}
+
+.footer_colored-link:link {
+    color: #BD633E;
+}
