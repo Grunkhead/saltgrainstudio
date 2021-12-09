@@ -65,12 +65,11 @@
 
             .team-container h2 {
                 color: #E28654 !important;
-                margin-top: 50px;
+                font-size: 32px;
             }
 
             @media screen and (max-width: 1024px) {
                 .team-container span {
-                    background-color: red !important;
                     display: none !important;
                 }
 
@@ -80,17 +79,29 @@
                 }
             }
 
-            .row div {
-                display: flex;
-                justify-content: center;
+            .row > div {
                 width: 160px;
-                height: 160px;
-                background-color: gray;
-                border-radius: 10px;
+                height: 200px;
                 margin: 0px 20px 20px 20px;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: auto;
+            }
+
+            .row > div > .column-image {
+                width: 160px;
+                height: 160px;
+                background-color: gray !important;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            .row > div > .column-text {
+                width: 160px;
+                text-align: center;
+                display: block;
+                color: #E28654;
+                font-size: 20px;
             }
 
             .team-container span {
@@ -110,33 +121,87 @@
         <header>
             <h1>The team</h1>
         </header>
+        <span>Coming soon!</span>
         <div class="team-container">
+            <h2>Producer & alternative</h2>
+            <span></span>
+            <div class="row">
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Geordy</div>
+                </div>
+            </div>
             <h2>Artists</h2>
             <span></span>
             <div class="row">
-                <div style="background-image: url(images/selfie.jpeg);"></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Dion</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Pedro</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Ricardo</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Ramin</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Geordy</div>
+                </div>
             </div>
             <h2>Designers</h2>
             <span></span>
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Sem</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Dave</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Ismail</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Wessel</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Tom</div>
+                </div>
             </div>
             <h2>Developers</h2>
             <span></span>
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Matthijs</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Albert</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Sjors</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Jari</div>
+                </div>
+                <div>
+                    <div class="column-image" style="background-image: url(images/selfie.jpeg);"></div>
+                    <div class="column-text">Walid</div>
+                </div>
             </div>
         </div>
     </div>
