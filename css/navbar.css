@@ -3,14 +3,27 @@
     background-color: #313131;
     line-height: 80px;
     padding: 20px 20px 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    min-height: 120px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    min-height: 140px;
   }
+
+.topnav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .topnav_container a {
-    float: left;
-    display: block;
+.topnav_container li {
+  display: inline-block;
+  color: white;
+  text-align: center !important;
+  padding: 14px 14px 0px 14px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+  .topnav_container li a {
     color: white;
     text-align: center !important;
     padding: 14px 14px 0px 14px;
@@ -69,6 +82,12 @@
     .topnav a.icon {
       float: right; 
       display: block;
+    }
+
+    .topnav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .background {
